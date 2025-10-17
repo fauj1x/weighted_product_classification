@@ -25,22 +25,17 @@ Metode **Weighted Product (WP)** merupakan salah satu metode **Multi-Criteria De
 
 Rumus utama WP:
 
-[
-S_i = \prod_{j=1}^{n} (x_{ij})^{w_j}
-]
+<img width="143" height="107" alt="image" src="https://github.com/user-attachments/assets/bf2f2bf3-469d-405a-8eac-7d358a699616" />
+
 
 Dimana:
 
-* ( S_i ): Nilai preferensi alternatif ke-i
-* ( x_{ij} ): Nilai kriteria j untuk alternatif i
-* ( w_j ): Bobot kriteria j (dalam proporsi, (\sum w_j = 1))
-* ( n ): Jumlah kriteria
+<img width="388" height="111" alt="image" src="https://github.com/user-attachments/assets/8d29acde-279c-4782-9d12-52cc63ea0890" />
 
 Kemudian hasil ( S_i ) dinormalisasi menjadi ( V_i ):
 
-[
-V_i = \frac{S_i}{\sum_{i=1}^{m} S_i}
-]
+<img width="154" height="76" alt="image" src="https://github.com/user-attachments/assets/c7b87432-214b-4072-bffe-9a32b48e085c" />
+
 
 ---
 
